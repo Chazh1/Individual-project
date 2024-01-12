@@ -112,7 +112,7 @@ turn = 0
 py.init()
 screen = py.display.set_mode((column_count * 100, (row_count + 1) * 100))
 py.display.set_caption("Connect Four")
-myfont = py.font.SysFont("Courier", 40)
+myfont = py.font.SysFont(None, 40)
 draw_board(board)
 py.display.update()
 has_winner = False
